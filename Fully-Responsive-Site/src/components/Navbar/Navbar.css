@@ -20,3 +20,7 @@ nav ul li{
     margin: 5px 20px;
     font-size: 15px;
 }
+nav ul li:hover{
+    cursor: pointer;
+    color: rgb(173, 173, 173);
+}
