@@ -29,6 +29,8 @@
     color: #fff;
     cursor: pointer;
     opacity: 0;
+    padding-top: 70px;
+    transition: 0.4s;
 }
 .caption img{
     width: 60px;
@@ -36,4 +38,5 @@
 }
 .program:hover .caption{
     opacity: 1;
+    padding-top: 0;
 }
