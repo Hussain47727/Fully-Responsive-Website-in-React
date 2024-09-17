@@ -3,8 +3,11 @@ import './Navbar.css'
 import Logo from '../../assets/logo.png'
 
 const Navbar = () => {
+
+  const [sticky, setSticky]
+
   return (
-    <nav className='container'>
+    <nav className='container dark-nav'>
       <img src={Logo} alt="" className='Logo' />
       <ul>
         <li>Home</li>

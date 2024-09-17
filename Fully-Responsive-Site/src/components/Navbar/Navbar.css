@@ -24,3 +24,7 @@ nav ul li:hover{
     cursor: pointer;
     color: rgb(173, 173, 173);
 }
+.dark-nav{
+    background: #212ea0;
+    transition: 0.5s;
+}
