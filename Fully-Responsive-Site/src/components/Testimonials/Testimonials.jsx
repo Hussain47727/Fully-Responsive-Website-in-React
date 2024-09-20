@@ -8,6 +8,16 @@ import user_3 from '../../assets/user-3.png'
 import user_4 from '../../assets/user-4.png'
 
 const Testimonials = () => {
+
+
+  const sliderForward = () =>{
+    
+  }
+
+  const sliderBackward = () =>{
+
+  }
+
   return (
     <div className='testimonials'>
         <img src={next_btn} alt=""  className='next-btn'/>
