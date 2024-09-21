@@ -17,18 +17,21 @@ const Testimonials = () => {
     if(tx > -50){
       tx -= 25;
     }
-    slider.current.style.transform = `translateX(${tx})`
+    slider.current.style.transform = `translateX(${tx}%)`
   }
 
   const sliderBackward = () =>{
-
+    if(tx < 0){
+      tx += 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`
   }
 
   return (
     <div className='testimonials'>
         <img src={next_btn} alt=""  className='next-btn' onClick={sliderForward}/>
         <img src={back_btn} alt=""  className='back-btn' onClick={sliderBackward}/>
-      <div className="slider">
+      <div className="slider ">
           <ul ref={slider}>
             <li>
               <div className="slide">
