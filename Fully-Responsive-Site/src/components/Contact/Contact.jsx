@@ -1,6 +1,9 @@
 import React from 'react'
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
+import mail_icon from '../../assets/mail-icon.png'
+import phone_icon from '../../assets/phone-icon.png'
+import location_icon from '../../assets/location-icon.png'
 
 const Contact = () => {
   return (
@@ -14,9 +17,9 @@ const Contact = () => {
                 university community
             </p>
             <ul>
-                <li>Contact@hussain.dev</li>
-                <li>+923554213577</li>
-                <li>Technity solution  Gitgit <br />
+                <li> <img src={mail_icon} alt="" />Contact@hussain.dev</li>
+                <li> <img src={phone_icon} alt="" />+923554213577</li>
+                <li> <img src={location_icon} alt="" />Technity solution  Gitgit <br />
                 near DC office</li>
             </ul>
         </div>
