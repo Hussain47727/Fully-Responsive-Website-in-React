@@ -1,11 +1,12 @@
 import React from 'react'
 import './Contact.css'
+import msg_icon from '../../assets/msg-icon.png'
 
 const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send us a message</h3>
+            <h3>Send us a message <img src={msg_icon} alt="" /></h3>
             <p>
                 Feel free to reach out through contact form or find our 
                 contact information below. Youe feedback, questions and answer are
