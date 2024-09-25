@@ -28,17 +28,7 @@ const App = () => {
       <Contact /> 
       <Contact /> 
       <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
-      <Contact /> 
+      
       
       
       
