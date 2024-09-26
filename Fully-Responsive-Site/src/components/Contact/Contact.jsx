@@ -31,7 +31,7 @@ const Contact = () => {
             <label > Phone Number</label>
             <input type="tel" name='phone' placeholder='Enter your mobile number' required />
             <label>Write your message here</label>
-            <textarea name="messafe" id="" rows='6' placeholder='Enter your message' required></textarea>
+            <textarea name="messafe" id="" rows='8' placeholder='Enter your message' required></textarea>
             <button type='submit' className='btn dark-btn'>Submit Now <img src={white_arrow} alt="" /></button>
           </form>
         </div>
