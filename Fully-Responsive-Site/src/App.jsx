@@ -23,7 +23,7 @@ const App = () => {
       <Testimonials />
       <Title subTitle = 'Contact Us' title = 'Getting Touch'/>
       <Contact />    
-           
+          
       </div>
     </div>
   )
