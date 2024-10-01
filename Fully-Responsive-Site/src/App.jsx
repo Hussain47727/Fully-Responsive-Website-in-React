@@ -27,10 +27,7 @@ const App = () => {
       <Footer />
       <Footer />
       <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
-      <Footer />
+   
       </div>
     </div>
   )
